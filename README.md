@@ -152,4 +152,40 @@ We are going to creat some Agents
 
 but let's define Agents: Agents are given access to the help desk with the intent to respond and resolve the tickets. When adding an Agent to the help desk, they will need to be assigned to a Primary Department and given a Primary Role for the Tickets/Tasks routed to that department. Agents can be given Extended Access to additional departments of the help desk as well as assigned different Roles to those departments; this can be configured in the Access tab of the Agent’s Profile.
 
+Click on Add New Agent
+
+![image](https://github.com/christyguajardo/osTicket-post-installation-setup/assets/147533626/24a87206-2b9f-49cb-ac55-2e2d39494a62)
+
+Complete the fields: Name Email Address Username chten click on set password
+![image](https://github.com/christyguajardo/osTicket-post-installation-setup/assets/147533626/8a1abac8-3d46-4bcb-9d2a-5ef1465efacd)
+
+
+Type in password and uncheck boxes: Send the agent a password reset email
+                                     Require password change at next login
+
+![image](https://github.com/christyguajardo/osTicket-post-installation-setup/assets/147533626/3de2db61-06cb-4597-8c86-34a22c68bc0b)
+
+Next, go to Access tab. We are making Jane a Supreme Admin 
+
+Under Primary Department - select System Administrators - Then select Supreme Admin
+![image](https://github.com/christyguajardo/osTicket-post-installation-setup/assets/147533626/65c2cdcd-0d5f-43c0-a4bd-51281b82a736)
+
+Next, go to Teams tab and select Level II Support
+
+![image](https://github.com/christyguajardo/osTicket-post-installation-setup/assets/147533626/7bc95691-2f6f-4614-b50d-02aeaf978e71)
+
+Jane has now been successfully added!
+
+![image](https://github.com/christyguajardo/osTicket-post-installation-setup/assets/147533626/de387ede-4dc5-4a35-96df-48238a87484f)
+
+
+Next, we are going to configure Users 9customers)
+
+Users are the ticket owners of the tickets in the help desk. When a ticket is created in the help desk, the user is associated with their email address in the User Directory of the help desk. Users can be added or deleted from the User Directory of the help desk at any time. Please note, if the user is deleted the tickets of the user must also be deleted. 
+
+Go to - Agent Panel -> Users -> Add New
+
+
+![image](https://github.com/christyguajardo/osTicket-post-installation-setup/assets/147533626/d0b7fc21-a7d4-4aa4-bfc7-c6e371bb0182)
+
 
