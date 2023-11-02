@@ -1,6 +1,6 @@
 # post-installation
 
-We will be configuring 
+In this demonstration, we will be configuring an osTicket.
 
 Of course, let's start by logging into osTicket
 
@@ -64,7 +64,7 @@ Role Permissions for Tickets include:
  🏗️ Transfer: Ability to transfer tasks between departments
 
 
-Now that you have a better understanding understanding roles and how it works with tasks and permissions. Let's look at some examples: 
+Hopefully, this explains roles and how it works with tasks and permissions. Let's look at some examples: 
 
 
 Configure Roles
@@ -122,11 +122,11 @@ Next we are configuring Teams:
 Teams allow you to pull Agents from different Departments and organize them to handle a specific issue or user via a Help Topic or Ticket Filter.
 Having Agents from different Departments assigned to a Team will supersede the parameters of the Agents' Department rules. For example, you can create a Help Topic associated with a partcitular product you produce and assign it to a Team of specialist Agents from different Departments. 
 
-to create a Team, go to your Admin Panel - Agents Tab - Click on Teams. Then click Add New Team on the right
+To create a Team, go to your Admin Panel - Agents Tab - Click on Teams. Then click Add New Team on the right
 
 ![image](https://github.com/christyguajardo/osTicket-post-installation-setup/assets/147533626/07a8f1e6-21fe-47b0-89fb-70fe056ba497)
 
-We are calling naming the team: Level II Support 
+We are naming the team: Level II Support 
 
 ![image](https://github.com/christyguajardo/osTicket-post-installation-setup/assets/147533626/5215ae3c-b550-4d7b-b7ac-fb7da0011cfa)
 
@@ -148,9 +148,9 @@ Make sure that Registration Required is unchecked
 ![image](https://github.com/christyguajardo/osTicket-post-installation-setup/assets/147533626/d236e0ae-5750-4bb7-a916-1f824d4889c3)
 
 
-We are going to creat some Agents
+Next we are going to creat some Agents
 
-but let's define Agents: Agents are given access to the help desk with the intent to respond and resolve the tickets. When adding an Agent to the help desk, they will need to be assigned to a Primary Department and given a Primary Role for the Tickets/Tasks routed to that department. Agents can be given Extended Access to additional departments of the help desk as well as assigned different Roles to those departments; this can be configured in the Access tab of the Agent’s Profile.
+Agents are given access to the help desk with the intent to respond and resolve the tickets. When adding an Agent to the help desk, they will need to be assigned to a Primary Department and given a Primary Role for the Tickets/Tasks routed to that department. Agents can be given Extended Access to additional departments of the help desk as well as assigned different Roles to those departments; this can be configured in the Access tab of the Agent’s Profile.
 
 Click on Add New Agent
 
@@ -242,7 +242,7 @@ Help Topics will determine what Department the ticket is routed to which will de
 
 There are two places where the Help Topic must be selected on New Tickets; the client portal and new tickets created internally by staff. When Users select the Help Topic, they are not aware of the configurations in place for that Help Topic.
 
-Examples o 
+Examples:
 
 You are looking at the default Help Topics - Click on Add New Help Topic
 
@@ -255,4 +255,4 @@ Click on Add Topic - Business Critical Outage has been added
 
 We will now add another Help Topic - Personal Computer Issues 
 
-Thank you for watching the configurations settings for osTickets! 
+Thank you! This concludes the deomnstation for configuring an osTicket. 
