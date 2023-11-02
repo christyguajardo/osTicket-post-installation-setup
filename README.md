@@ -179,13 +179,80 @@ Jane has now been successfully added!
 ![image](https://github.com/christyguajardo/osTicket-post-installation-setup/assets/147533626/de387ede-4dc5-4a35-96df-48238a87484f)
 
 
-Next, we are going to configure Users 9customers)
+Next, we are going to configure Users (customers)
 
 Users are the ticket owners of the tickets in the help desk. When a ticket is created in the help desk, the user is associated with their email address in the User Directory of the help desk. Users can be added or deleted from the User Directory of the help desk at any time. Please note, if the user is deleted the tickets of the user must also be deleted. 
 
-Go to - Agent Panel -> Users -> Add New
+Go to - Agent Panel -> Users -> Add User 
 
 
 ![image](https://github.com/christyguajardo/osTicket-post-installation-setup/assets/147533626/d0b7fc21-a7d4-4aa4-bfc7-c6e371bb0182)
 
+Click Add User 
 
+![image](https://github.com/christyguajardo/osTicket-post-installation-setup/assets/147533626/99ba2167-5bbd-48bb-9053-02ef76889f1d)
+
+Jill Hill has been added as a User
+
+![image](https://github.com/christyguajardo/osTicket-post-installation-setup/assets/147533626/bdcaa723-5bf5-40e6-856d-164e547b465f)
+
+We will now configure an SLA
+
+SLA Plans or Service Level Agreements, are unlimited in osTicket. The purpose of the SLA Plan is to provide a length of time in which the help desk Administrator expects tickets to be closed.
+Once created, SLA Plans can be determined for Departments, Ticket Filters, and Help Topics.
+
+Service Level Agreements: SLA Plans can be set by help topic and department to ensure the ticket is CLOSED in the allotted or specified amount of time.
+
+Name: Plan name to be selected when assigning.
+
+  💡Grace Period: Amount, in hours, before tickets with this SLA will become overdue if not closed in allotted time.
+
+  💡Status: Choose Active or Disable for the plan.
+
+  💡Transient: SLA can be overridden on ticket transfer or help topic change; if not transient, the SLA will remain the same as it is assigned on ticket creation.
+
+  💡Ticket Overdue Alerts: This will DISABLE overdue alert notices to staff for tickets assigned this SLA.
+
+Let's start the configuration. Go to Admin Panel -> Manage -> SLA
+
+   Click on Add New SLA Plan 
+
+![image](https://github.com/christyguajardo/osTicket-post-installation-setup/assets/147533626/b5b651a9-16db-4f6a-b935-a4668cf04aab)
+
+Click on Add Plan
+
+![image](https://github.com/christyguajardo/osTicket-post-installation-setup/assets/147533626/d0bf52e5-3626-4df5-a2d1-6d364f68c5ed)
+
+Let's add another SLA!
+![image](https://github.com/christyguajardo/osTicket-post-installation-setup/assets/147533626/26b225a4-0dc3-4540-875c-0e678049dfe6)
+
+This means that you have 4 hours to settle the ticket 
+
+Last SLA we will be adding
+
+You will have a business day (8 hours to settle the ticket)
+
+![image](https://github.com/christyguajardo/osTicket-post-installation-setup/assets/147533626/5fa42702-f6cd-4e77-9d2b-83a29329608f)
+
+For the last part of this demonstration, Help Topics will be configured
+
+Help Topics will help streamline your end-user’s help desk experience to ensure proper assignment and prompt response to the ticket. Create as many Help Topics as needed and can even nest Help Topics within each other for further breakdown (For example, Human Resources and Human Resources/Payroll.)
+
+Help Topics will determine what Department the ticket is routed to which will determine which Agents have access to the ticket. The Help Topic also can determine other configurations of the ticket, such as the ticket’s SLA (or Service Level Agreement) and priority of a ticket, i.e. Emergency to Low.
+
+There are two places where the Help Topic must be selected on New Tickets; the client portal and new tickets created internally by staff. When Users select the Help Topic, they are not aware of the configurations in place for that Help Topic.
+
+Examples o 
+
+You are looking at the default Help Topics - Click on Add New Help Topic
+
+![image](https://github.com/christyguajardo/osTicket-post-installation-setup/assets/147533626/12a10747-ae3a-4e8c-a6c8-a5649b448f61)
+
+Click on Add Topic - Business Critical Outage has been added
+
+![image](https://github.com/christyguajardo/osTicket-post-installation-setup/assets/147533626/1305be63-8c3b-4b24-a65a-fb848f393b90)
+
+
+We will now add another Help Topic - Personal Computer Issues 
+
+Thank you for watching the configurations settings for osTickets! 
